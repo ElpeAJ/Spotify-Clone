@@ -1,5 +1,5 @@
-import SpotifyWhite from '../assets/images/logo.png';
-import SpotifyBlack from "../assets/images/spotify-black.png";
+import SpotifyWhite from '../../app/assets/images/logo.png';
+import SpotifyBlack from "../../app/assets/images/spotify-black.png";
 // import SpotifyBlackSVG from "../assets/images/spotify-black.svg";
 
 export function Logo(props){

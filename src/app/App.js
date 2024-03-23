@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
-import {LandingPageHeader} from './components/LandingPageHeader';
-import { Banner } from './components/LandingPageHeader';
+import {LandingPageHeader} from '../components/LandingPageHeader';
+import { Banner } from '../components/LandingPageHeader';
+import {Icons} from '../components/Icons';
+import Card from '../components/PickPremium';
 
 function App() {
   return (
     <div>
       <LandingPageHeader/>
       <Banner/>
+      <Icons/>
+      <Card/>
    </div>
   );
 }

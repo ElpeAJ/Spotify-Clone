@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h2 {
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 46px;
+  margin: 50px 0px;
+}
+
+.icons-section {
+  /* padding: 0px 135px; */
+  width: 85vw;
+  height: 571.3px;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.data-icons {
+  width: 285px;
+  height: 283.3px;
+}
+
+.data-icons img {
+  width: 142px;
+  height: 142px;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  /* width: 285px;
+  height: 85.3px; */
+  text-align: center;
+}

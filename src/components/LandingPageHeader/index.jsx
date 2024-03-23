@@ -1,14 +1,14 @@
-import "./LandingPageHeader.css";
+import  style from "./LandingPageHeader.module.css";
 import { Logo } from "./Logo";
-import Button from "./button";
+import Button from "../Button";
 
 export const LandingPageHeader = () => {
   return (
-    <header className="header">
-      <div className="logo">
+    <header className={style.header}>
+      <div className={style.logo}>
         <Logo useWhite={true} />
       </div>
-      <div className="menu">
+      <div className={style.menu}>
         <ul>
           <li>
             <a href="#/Premium">Premium</a>
@@ -34,16 +34,16 @@ export const LandingPageHeader = () => {
 
 export function Banner(){
   return (
-    <div className="blue-banner">
+    <div className={style.bluebanner}>
       <h2>Get Premium free for 1 month</h2>
       <p>
         Just 119/month after. Debit and credit cards accepted. Cancel anytime.
       </p>
-      <div className="buttons">
-      <Button content="GET STARTED" element="black-bg"/>
-      <Button content="SEE OTHER PLANS" element="border"/>
+      <div className={style.buttons}>
+      <Button content="GET STARTED" element={style.blackbg}/>
+      <Button content="SEE OTHER PLANS" element={style.border}/>
       </div>
-      <p className="terms">
+      <p className={style.terms}>
         <a href="#">Terms and conditions apply.</a> 1 month free not available
         for users who have already tried Premium
       </p>
