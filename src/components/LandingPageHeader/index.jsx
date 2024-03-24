@@ -44,7 +44,7 @@ export function Banner(){
       <Button content="SEE OTHER PLANS" element={style.border}/>
       </div>
       <p className={style.terms}>
-        <a href="#">Terms and conditions apply.</a> 1 month free not available
+        <a href="#" className={style.color}>Terms and conditions apply.</a> 1 month free not available
         for users who have already tried Premium
       </p>
     </div>

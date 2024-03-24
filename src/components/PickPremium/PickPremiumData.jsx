@@ -1,3 +1,10 @@
+import lipi from "../../app/assets/images/lipi.svg";
+import paytm from "../../app/assets/images/paytm.svg";
+import visa from "../../app/assets/images/visa.svg";
+import mastercard from "../../app/assets/images/mastercard.svg";
+import amex from "../../app/assets/images/amex.svg";
+import club from "../../app/assets/images/club.svg";
+
 export const plans = [
   {
     plantype: "Mini",
@@ -42,4 +49,13 @@ export const plans = [
     cost: "₹179/month after offer period",
     account: "Up to 6 accounts",
   },
+];
+
+export const paymentOptions = [
+  { type: lipi },
+  { type: paytm },
+  { type: visa },
+  { type: mastercard },
+  { type: amex },
+  { type: club },
 ];

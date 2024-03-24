@@ -13,12 +13,10 @@ h2 {
   margin: 50px 0px;
 }
 
-.icons-section {
-  /* padding: 0px 135px; */
+.iconssection {
   width: 85vw;
-  height: 571.3px;
   margin: 0 auto;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .icons {
@@ -26,12 +24,12 @@ h2 {
   justify-content: center;
 }
 
-.data-icons {
+.dataicons {
   width: 285px;
   height: 283.3px;
 }
 
-.data-icons img {
+.dataicons img {
   width: 142px;
   height: 142px;
 }
@@ -45,4 +43,5 @@ h2 {
   /* width: 285px;
   height: 85.3px; */
   text-align: center;
+  margin-top: 30px;
 }
