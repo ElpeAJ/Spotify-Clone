@@ -1,0 +1,9 @@
+.form{
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.button{
+  font-size: 20px;
+  background-color: red;
+}

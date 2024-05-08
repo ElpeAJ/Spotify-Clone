@@ -4,6 +4,7 @@ import {LandingPageHeader} from '../components/LandingPageHeader';
 import { Banner } from '../components/LandingPageHeader';
 import {Icons} from '../components/Icons';
 import Card from '../components/PickPremium';
+// import Login from '../components/Login';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Banner/>
       <Icons/>
       <Card/>
+      {/* <Login/> */}
    </div>
   );
 }

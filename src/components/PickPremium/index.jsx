@@ -17,7 +17,6 @@ function Card() {
               <img src={paymentOption.type} />
             </div>
           ))}
-        
         </div>
       </div>
       <div className={style.premiumsection}>

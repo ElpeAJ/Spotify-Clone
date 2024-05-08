@@ -32,11 +32,14 @@
 }
 
 .squareborder {
+  /* width: 90%; */
   color: #0d72ea;
   border: 1px solid #0d72ea;
   border-radius: 4px;
   font-size: 12px;
   font-weight: 600;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .bigpremiumsection {

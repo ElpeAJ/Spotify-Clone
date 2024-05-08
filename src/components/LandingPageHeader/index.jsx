@@ -1,6 +1,7 @@
 import  style from "./LandingPageHeader.module.css";
 import { Logo } from "./Logo";
 import Button from "../Button";
+import Login from '../Login';
 
 export const LandingPageHeader = () => {
   return (
@@ -24,7 +25,7 @@ export const LandingPageHeader = () => {
             <a href="#/Sign up">Sign up</a>
           </li>
           <li className="active">
-            <a href="#/Log in">Log in</a>
+            <a href={Login}>Log in</a>
           </li>
         </ul>
       </div>
