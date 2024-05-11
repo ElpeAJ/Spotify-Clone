@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "../Button";
 import styles from "./Login.module.css";
-import { LoginDetails } from "./LoginDetails";
+//import { LoginDetails } from "./LoginDetails";
 import Logo from "../../app/assets/images/spotify-black.svg";
 import Facebook from "../../app/assets/images/fb.svg";
-import Apple from "../../app/assets/images/apple.svg";
-import Google from "../../app/assets/images/google.svg";
-import Eyeslash from "../../app/assets/images/eyeslash.svg";
+//import Apple from "../../app/assets/images/apple.svg";
+//import Google from "../../app/assets/images/google.svg";
+//import Eyeslash from "../../app/assets/images/eyeslash.svg";
 
 
 // function Login() {
@@ -105,16 +105,16 @@ function Login() {
   return (
     <div>
       <div>
-        <img src={Logo} />
+        <img src={Logo} alt="Logo" />
       </div>
       <span></span>
       <div content="" className={styles.form}>
         <Button className={styles.button}>
-          <img src={Facebook} />
+          <img src={Facebook} alt="facebook image" />
           <p className={styles.btnText}>Continue with Facebook</p>
         </Button>
         <Button className={styles.button}>
-          <img src={Facebook} />
+          <img src={Facebook} alt="facebook image" />
           <p className={styles.btnText}>Continue with Facebook</p>
         </Button>
         <Button/>
