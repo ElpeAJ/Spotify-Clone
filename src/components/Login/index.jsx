@@ -114,7 +114,7 @@ function Login() {
           <p className={styles.btnText}>Continue with Facebook</p>
         </Button>
         <Button className={styles.button}>
-          <img src={Facebook} alt="facebook image" />
+          <img src={Facebook} alt="facebook" />
           <p className={styles.btnText}>Continue with Facebook</p>
         </Button>
         <Button/>
